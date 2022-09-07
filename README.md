@@ -16,6 +16,8 @@ export 'getBiometricsSecret' (reexported as 'getBiometricsSecret') was not found
  @ ./index.ts 1:0-59 2:0-19
 ```
 
+Notice that a runtime that implements JS modules (e.g. Node 18) would throw with a SyntaxError in both cases (as specified).
+
 Similar to
 
 - https://github.com/webpack/webpack/issues/4897

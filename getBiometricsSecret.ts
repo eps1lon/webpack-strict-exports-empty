@@ -1,2 +1,2 @@
 // Uncomment to reproduce
-export type {};
+export {};
